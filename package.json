@@ -1,0 +1,40 @@
+{
+  "name": "dron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore . --fix",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/kordonskanastya/dron/issues"
+  },
+  "homepage": "https://github.com/kordonskanastya/dron#readme",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2",
+    "nodemailer": "^6.7.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.4.1"
+  }
+}
